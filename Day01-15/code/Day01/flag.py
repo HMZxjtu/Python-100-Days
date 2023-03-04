@@ -30,7 +30,7 @@ def draw_star(x, y, radius):
     pos4 = turtle.pos()
     turtle.circle(-radius, 72)
     pos5 = turtle.pos()
-    turtle.color('yellow', 'yellow')
+    turtle.color('blue', 'green')
     turtle.begin_fill()
     turtle.goto(pos3)
     turtle.goto(pos1)
